@@ -1,0 +1,73 @@
+/*!
+ * Start Bootstrap - Shop Homepage (https://startbootstrap.com/template-overviews/shop-homepage)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-shop-homepage/blob/master/LICENSE)
+ */
+
+
+ /* font-family: 'Amatic SC', cursive;
+ font-family: 'Open Sans Condensed', sans-serif;
+ font-family: 'Oswald', sans-serif; */
+
+body {
+  padding-top: 56px;
+  font-family: 'Oswald', sans-serif;
+
+}
+
+.navbar-brand{
+  font-family: 'Amatic SC', cursive;
+  font-size: 1.6em;
+}
+h1{
+  font-family: 'Amatic SC', cursive;
+  font-size: 3em;
+}
+.nav-back{
+  background-color: #702557e7;
+}
+
+a{
+  color: #141313e7;
+}
+a:hover{
+  color: #b1a9ade7;
+  text-decoration:none;
+}
+
+
+
+/* Add a background color and some padding around the form */
+.contact {
+  /* display: flex; 
+  background-color: #702557e7;
+  max-width: 800px;
+  min-width: 300px; */
+  margin: 30px 50px 50px 50px;
+  padding: 20px; 
+}
+
+.footer-contact {
+
+  position: absolute;
+  bottom: 0;
+  
+} 
+
+.container {
+ 
+  height: 100%hv;
+}
+.footer {
+  position: relative;
+  bottom: 0;
+ 
+}
+
+.btn{
+  margin-top: 20px;
+}
+
+.form-chec{
+  margin-top: 20px;
+}
