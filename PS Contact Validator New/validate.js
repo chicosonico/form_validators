@@ -8,7 +8,7 @@
                 var n = document.forms["myForm"]["fname"].value;
                 var e = document.forms["myForm"]["email"].value;
                 if (n == "") {
-                    var f = document.getElementById("firstname_error").innerHTML = "Firstname must be filled out";
+                    var f = document.getElementById("firstname_error").innerHTML = "Name must be filled out";
                     return false;
                    
                 } else if
