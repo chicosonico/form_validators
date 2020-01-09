@@ -5,23 +5,29 @@
                 return regex.test(email) ? true : false;
             }
             function validateForm() {
+                var error = 0;
                 var n = document.forms["myForm"]["fname"].value;
                 var e = document.forms["myForm"]["email"].value;
                 if (n == "") {
                     var f = document.getElementById("firstname_error").innerHTML = "Name must be filled out";
-                    return false;
+                    error = 1;
                    
                 } else if
                     (e == "") {
                         var f = document.getElementById("firstname_error").innerHTML = "";
                     var em = document.getElementById("email_error").innerHTML = "email must be filled out";
-                    return false;
+                    error ++;
                 } else if (validar_email(e)== false) {
                     var em = document.getElementById("email_error").innerHTML = "";
                     var wf = document.getElementById("wrongf_error").innerHTML = "Wrong format email.";
-                    return false;
+                    error++;
                 } else {
                     var wf = document.getElementById("wrongf_error").innerHTML = "";
+                }if (error == 0){
+                    return true;
+
+                }else {
+                    return false;
                 }
             }
 
