@@ -55,25 +55,25 @@
 
 
            
-        <div class="contact">
-                <form method="post" action="envia.php" name="myForm" onsubmit="return validateForm()">
-              
-                  <label for="fname">Name</label>
-                  <input type="text" id="fname" name="fname" placeholder="Your name..." onclick="return cleanFname()" >
-                  <div id="firstname_error" class="val_error"></div>
-              
-                  <label for="email">email</label>
-                  <input type="text" id="email" name="email" placeholder="Your email..." onclick="return cleanemail()" >
-                  <div id="email_error" class="val_error"></div>
-                  <div id="wrongf_error" class="val_error"></div>
-              
-                  <label for="subject">Subject</label>
-                  <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
-              
-                  <input type="submit" value="Submit">
-              
-                </form>
-        </div>
+                <div class="contact">
+                    <form method="post" action="envia.php" name="myForm" onsubmit="return validateForm()">
+                  
+                      <div><label for="fname">Name</label></div>
+                      <input type="text" id="fname" name="fname" placeholder="Your name..." onclick="return cleanFname()" >
+                      <div id="firstname_error" class="val_error"></div>
+                  
+                      <div class="labelmargin"><label for="email">email</label></div>
+                      <input type="text" id="email" name="email" placeholder="Your email..." onclick="return cleanemail()" >
+                      <div id="email_error" class="val_error"></div>
+                      <div id="wrongf_error" class="val_error"></div>
+                  
+                      <div class="labelmargin"><label for="subject">Subject</label></div>
+                      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+                  
+                      <input type="submit" value="Submit">
+                  
+                    </form>
+            </div>
   
     </main>
 
